@@ -1,0 +1,11 @@
+{
+  "revision": "u2netp-309c8469258d",
+  "models": [
+    {
+      "name": "u2netp.onnx",
+      "url": "https://models.tracket.xyz/segmentation/v1/u2netp/309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8/u2netp.onnx",
+      "size": 4574861,
+      "sha256": "309c8469258dda742793dce0ebea8e6dd393174f89934733ecc8b14c76f4ddd8"
+    }
+  ]
+}

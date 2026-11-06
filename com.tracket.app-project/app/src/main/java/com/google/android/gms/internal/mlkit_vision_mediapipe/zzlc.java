@@ -1,0 +1,29 @@
+package com.google.android.gms.internal.mlkit_vision_mediapipe;
+
+import defpackage.p6e;
+import defpackage.t6e;
+
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes.dex */
+public enum zzlc {
+    z("VOID"),
+    A("INT"),
+    B("LONG"),
+    C("FLOAT"),
+    D("DOUBLE"),
+    E("BOOLEAN"),
+    F("STRING"),
+    G("BYTE_STRING"),
+    H("ENUM"),
+    I("MESSAGE");
+
+    public final Class y;
+
+    static {
+        p6e p6eVar = t6e.z;
+    }
+
+    zzlc(String str) {
+        this.y = cls;
+    }
+}

@@ -1,0 +1,25 @@
+package com.google.protobuf;
+
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes3.dex */
+@CheckReturnValue
+final class NewInstanceSchemas {
+    private static final NewInstanceSchema FULL_SCHEMA = loadSchemaForFullRuntime();
+    private static final NewInstanceSchema LITE_SCHEMA = new NewInstanceSchemaLite();
+
+    public static NewInstanceSchema full() {
+        return FULL_SCHEMA;
+    }
+
+    public static NewInstanceSchema lite() {
+        return LITE_SCHEMA;
+    }
+
+    private static NewInstanceSchema loadSchemaForFullRuntime() {
+        try {
+            return (NewInstanceSchema) Class.forName("com.google.protobuf.NewInstanceSchemaFull").getDeclaredConstructor(null).newInstance(null);
+        } catch (Exception unused) {
+            return null;
+        }
+    }
+}

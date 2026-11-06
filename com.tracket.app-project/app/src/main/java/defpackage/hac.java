@@ -1,0 +1,11 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes.dex */
+public final class hac {
+    public final i82 a;
+
+    public hac(i82 i82Var) {
+        this.a = i82Var;
+    }
+}

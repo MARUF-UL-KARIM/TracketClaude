@@ -1,0 +1,20 @@
+package androidx.work;
+
+/* JADX WARN: Failed to restore enum class, 'enum' modifier and super class removed */
+/* JADX WARN: Unknown enum class pattern. Please report as an issue! */
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes4.dex */
+public final class ExistingWorkPolicy {
+    public static final /* synthetic */ ExistingWorkPolicy[] y = {new ExistingWorkPolicy("REPLACE", 0), new ExistingWorkPolicy("KEEP", 1), new ExistingWorkPolicy("APPEND", 2), new ExistingWorkPolicy("APPEND_OR_REPLACE", 3)};
+
+    /* JADX INFO: Fake field, exist only in values array */
+    ExistingWorkPolicy EF5;
+
+    public static ExistingWorkPolicy valueOf(String str) {
+        return (ExistingWorkPolicy) Enum.valueOf(ExistingWorkPolicy.class, str);
+    }
+
+    public static ExistingWorkPolicy[] values() {
+        return (ExistingWorkPolicy[]) y.clone();
+    }
+}

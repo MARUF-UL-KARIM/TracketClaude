@@ -1,0 +1,13 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes.dex */
+public interface k5d {
+    ju4 b(e2d e2dVar, byte[] bArr, byte[] bArr2);
+
+    ju4 c(e2d e2dVar, byte[] bArr);
+
+    ju4 zza();
+
+    ffd zzb();
+}

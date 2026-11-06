@@ -1,0 +1,18 @@
+package defpackage;
+
+/* JADX INFO: compiled from: r8-map-id-0b7cfea85508d58686d8f3d90c16fee3cfa6bb72c3441c3c9e895e064ade750b */
+/* JADX INFO: loaded from: classes.dex */
+public final class u17 {
+    public final boolean a;
+    public final String b;
+
+    public u17(String str, boolean z) {
+        this.b = str;
+        this.a = z;
+    }
+
+    public /* synthetic */ u17(boolean z, String str) {
+        this.a = z;
+        this.b = str;
+    }
+}
