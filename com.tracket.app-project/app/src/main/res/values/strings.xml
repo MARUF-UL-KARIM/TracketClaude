@@ -21,7 +21,7 @@
     <string name="abc_searchview_description_voice">Voice search</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="androidx_startup">androidx.startup</string>
-    <string name="app_name">Tracket</string>
+    <string name="app_name">Tracker</string>
     <string name="close_sheet">Close sheet</string>
     <string name="com.google.firebase.crashlytics.mapping_file_id">1bb4c4ed64a44a8b9a74c66039fb3a51</string>
     <string name="com.google.firebase.crashlytics.version_control_info">repositories {\n  system: GIT\n  local_root_path: \"$PROJECT_DIR\"\n  revision: \"ba7c73a98758796b3a5369ec27ecc751d13dfbe9\"\n}\n</string>

@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId 'com.tracket.app'
-        minSdkVersion 28
+        minSdkVersion 26
         //noinspection ExpiringTargetSdkVersion,ExpiredTargetSdkVersion
         targetSdkVersion 36
         versionCode 243

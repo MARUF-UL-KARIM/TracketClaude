@@ -1,9 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:integer/config_mediumAnimTime">
-    <item
-        android:state_pressed="true"
-        android:drawable="0x7f0800d2"/>
-    <item
-        android:state_pressed="false"
-        android:drawable="0x7f0800d1"/>
-</selector>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@android:color/transparent" />
+</shape>
