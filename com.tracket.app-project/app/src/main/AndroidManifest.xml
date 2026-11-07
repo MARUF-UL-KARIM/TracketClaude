@@ -10,7 +10,7 @@
     platformBuildVersionCode="37"
     platformBuildVersionName="17">
     <uses-sdk
-        android:minSdkVersion="28"
+        android:minSdkVersion="26"
         android:targetSdkVersion="36"/>
     <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
@@ -19,14 +19,9 @@
     <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="28"/>
-    <uses-permission android:name="com.android.vending.BILLING"/>
-    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+        <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="com.google.android.gms.permission.AD_ID"/>
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID"/>
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION"/>
-    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS"/>
     <queries>
         <intent>
             <action android:name="android.intent.action.VIEW"/>
@@ -139,12 +134,6 @@
             android:name="com.google.mlkit.vision.DEPENDENCIES"
             android:value="subject_segment"/>
         <meta-data
-            android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-4768444326942796~3916143057"/>
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.NATIVE_AD_DEBUGGER_ENABLED"
-            android:value="false"/>
-        <meta-data
             android:name="google_analytics_automatic_screen_reporting_enabled"
             android:value="false"/>
         <meta-data
@@ -237,38 +226,6 @@
             android:exported="false"
             android:authorities="com.tracket.app.mlkitinitprovider"
             android:initOrder="99"/>
-        <activity
-            android:theme="@android:style/Theme.Translucent"
-            android:name="com.google.android.gms.ads.AdActivity"
-            android:exported="false"
-            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"
-            android:enableOnBackInvokedCallback="false"/>
-        <provider
-            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
-            android:exported="false"
-            android:authorities="com.tracket.app.mobileadsinitprovider"
-            android:initOrder="100"/>
-        <service
-            android:name="com.google.android.gms.ads.AdService"
-            android:enabled="true"
-            android:exported="false"/>
-        <activity
-            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
-            android:exported="false"
-            android:configChanges="smallestScreenSize|screenSize|uiMode|screenLayout|orientation|keyboardHidden|keyboard"/>
-        <activity
-            android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
-            android:exported="false"
-            android:taskAffinity=""
-            android:excludeFromRecents="true"
-            android:launchMode="singleTask"/>
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_AD_LOADING"
-            android:value="true"/>
-        <meta-data
-            android:name="com.google.android.gms.ads.flag.OPTIMIZE_INITIALIZATION"
-            android:value="true"/>
         <activity
             android:theme="@style/Theme.HsdpServiceTransparent"
             android:name="com.google.android.play.core.hsdp.service.HsdpShimActivity"
@@ -441,9 +398,6 @@
             android:authorities="com.tracket.app.firebaseinitprovider"
             android:initOrder="100"
             android:directBootAware="true"/>
-        <uses-library
-            android:name="android.ext.adservices"
-            android:required="false"/>
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version"/>

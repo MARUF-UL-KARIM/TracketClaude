@@ -217,8 +217,8 @@
         <item name="dialogCornerRadius">@dimen/abc_dialog_corner_radius_material</item>
         <item name="dialogPreferredPadding">@dimen/abc_dialog_padding_material</item>
         <item name="dialogTheme">@style/ThemeOverlay.AppCompat.Dialog</item>
-        <item name="dividerHorizontal">?unknown_ref: 7f080025</item>
-        <item name="dividerVertical">?unknown_ref: 7f080025</item>
+        <item name="dividerHorizontal">@null</item>
+        <item name="dividerVertical">@null</item>
         <item name="drawerArrowStyle">@style/Widget.AppCompat.DrawerArrowToggle</item>
         <item name="dropDownListViewStyle">?android:attr/dropDownListViewStyle</item>
         <item name="dropdownListPreferredItemHeight">?attr/listPreferredItemHeightSmall</item>
@@ -239,7 +239,7 @@
         <item name="listPreferredItemPaddingLeft">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingRight">@dimen/abc_list_item_padding_horizontal_material</item>
         <item name="listPreferredItemPaddingStart">@dimen/abc_list_item_padding_horizontal_material</item>
-        <item name="panelBackground">?unknown_ref: 7f080030</item>
+        <item name="panelBackground">@null</item>
         <item name="panelMenuListTheme">@style/Theme.AppCompat.CompactMenu</item>
         <item name="panelMenuListWidth">@dimen/abc_panel_menu_list_width</item>
         <item name="popupMenuStyle">@style/Widget.AppCompat.Light.PopupMenu</item>
@@ -288,7 +288,7 @@
         <item name="android:windowAnimationStyle">@style/Animation.AppCompat.Dialog</item>
         <item name="android:listDivider">@null</item>
         <item name="android:backgroundDimEnabled">true</item>
-        <item name="android:windowSoftInputMode">0x20</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
         <item name="android:colorBackgroundCacheHint">@null</item>
         <item name="android:borderlessButtonStyle">@style/Widget.AppCompat.Button.Borderless</item>
         <item name="android:buttonBarStyle">@style/Widget.AppCompat.ButtonBar.AlertDialog</item>
@@ -319,7 +319,7 @@
         <item name="titleTextAppearance">@style/TextAppearance.Widget.AppCompat.Toolbar.Title</item>
     </style>
     <style name="Base.Widget.AppCompat.ActionBar" parent="">
-        <item name="android:gravity">0x10</item>
+        <item name="android:gravity">center_vertical</item>
         <item name="actionButtonStyle">@style/Widget.AppCompat.ActionButton</item>
         <item name="actionOverflowButtonStyle">@style/Widget.AppCompat.ActionButton.Overflow</item>
         <item name="background">@null</item>
@@ -367,8 +367,8 @@
         <item name="titleTextStyle">@style/TextAppearance.AppCompat.Widget.ActionMode.Title</item>
     </style>
     <style name="Base.Widget.AppCompat.ActivityChooserView" parent="">
-        <item name="android:gravity">0x11</item>
-        <item name="android:background">?unknown_ref: 7f080000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@null</item>
         <item name="divider">?attr/dividerVertical</item>
         <item name="dividerPadding">6dp</item>
         <item name="showDividers">middle</item>
@@ -404,7 +404,7 @@
         <item name="showText">false</item>
         <item name="switchPadding">@dimen/abc_switch_padding</item>
         <item name="switchTextAppearance">@style/TextAppearance.AppCompat.Widget.Switch</item>
-        <item name="track">?unknown_ref: 7f080042</item>
+        <item name="track">@null</item>
     </style>
     <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="@style/Base.Widget.AppCompat.DrawerArrowToggle.Common">
         <item name="barLength">18dp</item>
@@ -421,8 +421,8 @@
     <style name="Base.Widget.AppCompat.DropDownItem.Spinner" parent="@android:style/Widget.Material.DropDownItem.Spinner">
     </style>
     <style name="Base.Widget.AppCompat.EditText" parent="@android:style/Widget.Material.EditText">
-        <item name="android:breakStrategy">0</item>
-        <item name="android:hyphenationFrequency">0</item>
+        <item name="android:breakStrategy">simple</item>
+        <item name="android:hyphenationFrequency">none</item>
     </style>
     <style name="Base.Widget.AppCompat.ImageButton" parent="@android:style/Widget.Material.ImageButton">
     </style>
@@ -466,7 +466,7 @@
     </style>
     <style name="Base.Widget.AppCompat.SearchView" parent="@android:style/Widget">
         <item name="closeIcon">@drawable/abc_ic_clear_material</item>
-        <item name="commitIcon">?unknown_ref: 7f080018</item>
+        <item name="commitIcon">@null</item>
         <item name="goIcon">@drawable/abc_ic_go_search_api_material</item>
         <item name="layout">@layout/abc_search_view</item>
         <item name="queryBackground">@drawable/abc_textfield_search_material</item>
@@ -487,8 +487,8 @@
     <style name="Base.Widget.AppCompat.Spinner" parent="@android:style/Widget.Material.Spinner">
     </style>
     <style name="Base.Widget.AppCompat.TextView" parent="@android:style/Widget.Material.TextView">
-        <item name="android:breakStrategy">1</item>
-        <item name="android:hyphenationFrequency">0</item>
+        <item name="android:breakStrategy">high_quality</item>
+        <item name="android:hyphenationFrequency">none</item>
     </style>
     <style name="Base.Widget.AppCompat.TextView.SpinnerItem" parent="@android:style/Widget.Material.TextView.SpinnerItem">
     </style>
@@ -540,7 +540,7 @@
         <item name="android:textAlignment">5</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.ActionBar.TitleItem" parent="@android:style/Widget">
-        <item name="android:layout_gravity">0x800013</item>
+        <item name="android:layout_gravity">start|center_vertical</item>
         <item name="android:paddingEnd">8dp</item>
     </style>
     <style name="RtlOverlay.Widget.AppCompat.PopupMenuItem" parent="@android:style/Widget">

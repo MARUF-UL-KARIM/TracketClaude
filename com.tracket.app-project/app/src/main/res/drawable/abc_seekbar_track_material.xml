@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item
-        android:id="@android:id/background"
-        android:drawable="0x7f080039"/>
-    <item android:id="@android:id/secondaryProgress">
-        <scale android:scaleWidth="100%">
-            <selector>
-                <item android:state_enabled="false">
-                    <color android:color="@android:color/transparent"/>
-                </item>
-                <item android:drawable="0x7f080038"/>
-            </selector>
-        </scale>
+    <item android:id="@android:id/background">
+        <shape><solid android:color="@android:color/darker_gray" /><corners android:radius="2dp" /></shape>
     </item>
     <item android:id="@android:id/progress">
-        <scale android:scaleWidth="100%">
-            <selector>
-                <item android:state_enabled="false">
-                    <color android:color="@android:color/transparent"/>
-                </item>
-                <item android:drawable="0x7f080038"/>
-            </selector>
-        </scale>
+        <clip><shape><solid android:color="@color/primary_material_light" /><corners android:radius="2dp" /></shape></clip>
     </item>
 </layer-list>
